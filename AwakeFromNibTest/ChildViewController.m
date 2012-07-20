@@ -28,6 +28,6 @@
 - (void)awakeFromNib
 {
     static int awakeTimes;
-    NSLog(@"awakeFromNib %d", ++awakeTimes);
+    NSLog(@"[%@ awakeFromNib] %d", self, ++awakeTimes);
 }
 @end
